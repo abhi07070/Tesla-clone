@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <Container>
             <a>
-                <img src="/Images/logo.svg" alt="" />
+                <img src="/Images/logo.svg" alt="Tesla" />
             </a>
             <Menu>
                 {cars && cars.map((car, index) => (
